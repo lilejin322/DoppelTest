@@ -6,7 +6,9 @@ from framework.scenario.pd_agents import PDSection
 from framework.scenario.ScenarioRunner import ScenarioRunner
 from framework.scenario.tc_config import TCSection
 from hdmap.MapParser import MapParser
+from utils.pyproto import compile_proto_files
 
+compile_proto_files(APOLLO_ROOT)
 ma = MapParser.get_instance(HD_MAP)
 
 x = Scenario(
