@@ -1,3 +1,6 @@
+import sys
+from config import APOLLO_ROOT
+sys.path.append(APOLLO_ROOT)
 import re
 from typing import Dict, List, Optional, Set, Tuple
 

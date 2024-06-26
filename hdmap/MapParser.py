@@ -1,3 +1,6 @@
+import sys
+from config import APOLLO_ROOT
+sys.path.append(APOLLO_ROOT)
 import math
 import pickle
 from collections import defaultdict

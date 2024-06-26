@@ -1,3 +1,6 @@
+import sys
+from config import APOLLO_ROOT
+sys.path.append(APOLLO_ROOT)
 from random import randint
 from typing import List, Tuple
 
