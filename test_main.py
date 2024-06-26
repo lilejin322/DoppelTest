@@ -1,7 +1,7 @@
+from config import APOLLO_ROOT, HD_MAP, MAX_ADC_COUNT
 from utils.pyproto import compile_proto_files
 compile_proto_files(APOLLO_ROOT)
 from apollo.ApolloContainer import ApolloContainer
-from config import APOLLO_ROOT, HD_MAP, MAX_ADC_COUNT
 from framework.scenario import Scenario
 from framework.scenario.ad_agents import ADAgent, ADSection
 from framework.scenario.pd_agents import PDSection
