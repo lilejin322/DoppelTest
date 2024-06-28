@@ -83,6 +83,7 @@ class ApolloContainer:
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE
         )
+        time.sleep(5)
         self.logger.debug(f'Started running at {self.ip}')
 
     def __dreamview_operation(self, op: str):
