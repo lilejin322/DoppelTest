@@ -15,7 +15,8 @@ def compile_proto_files(root_dir=APOLLO_ROOT) -> None:
                 # Note that the output directory should be the root, otherwise it will create a cyclic dir struct
                 try:
                     # Compile the dirpath/filename.proto file to .py file in the same directory
-                    subprocess.run(['protoc', f'--proto_path={root_dir}', f'--python_out={root_dir}', proto_file], check=True)
+                    subprocess.run(['protoc', f'--proto_path={root_dir}', f'--python_out={root_dir}', proto_file],\
+                                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
                 except subprocess.CalledProcessError as _:
                     pass
     print("Protoc compilation complete.")
