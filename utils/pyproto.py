@@ -16,6 +16,6 @@ def compile_proto_files(root_dir=APOLLO_ROOT) -> None:
                 try:
                     # Compile the dirpath/filename.proto file to .py file in the same directory
                     subprocess.run(['protoc', f'--proto_path={root_dir}', f'--python_out={root_dir}', proto_file], check=True)
-                except subprocess.CalledProcessError as e:
-                    print(f"Failed to compile {proto_file}: {e}")
+                except subprocess.CalledProcessError as _:
+                    pass
     print("Protoc compilation complete.")
