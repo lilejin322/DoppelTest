@@ -12,13 +12,13 @@ from shapely.geometry import LineString, Point
 
 from config import DT_ROOT
 from hdmap import load_hd_map
-from modules.common.proto.geometry_pb2 import PointENU
-from modules.map.proto.map_crosswalk_pb2 import Crosswalk
-from modules.map.proto.map_junction_pb2 import Junction
-from modules.map.proto.map_lane_pb2 import Lane
-from modules.map.proto.map_pb2 import Map
-from modules.map.proto.map_signal_pb2 import Signal
-from modules.map.proto.map_stop_sign_pb2 import StopSign
+from modules.common_msgs.basic_msgs.geometry_pb2 import PointENU
+from modules.common_msgs.map_msgs.map_crosswalk_pb2 import Crosswalk
+from modules.common_msgs.map_msgs.map_junction_pb2 import Junction
+from modules.common_msgs.map_msgs.map_lane_pb2 import Lane
+from modules.common_msgs.map_msgs.map_pb2 import Map
+from modules.common_msgs.map_msgs.map_signal_pb2 import Signal
+from modules.common_msgs.map_msgs.map_stop_sign_pb2 import StopSign
 
 
 class MapParser:
