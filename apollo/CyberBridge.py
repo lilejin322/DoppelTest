@@ -9,12 +9,12 @@ from typing import DefaultDict, List, Set
 
 from modules.common_msgs.chassis_msgs.chassis_pb2 import Chassis
 from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
-from modules.perception.proto.perception_obstacle_pb2 import \
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import \
     PerceptionObstacles
-from modules.perception.proto.traffic_light_detection_pb2 import \
+from modules.common_msgs.perception_msgs.traffic_light_detection_pb2 import \
     TrafficLightDetection
-from modules.planning.proto.planning_pb2 import ADCTrajectory
-from modules.routing.proto.routing_pb2 import RoutingRequest
+from modules.common_msgs.planning_msgs.planning_pb2 import ADCTrajectory
+from modules.common_msgs.routing_msgs.routing_pb2 import RoutingRequest
 
 
 def to_bytes(s: str) -> bytes:
