@@ -8,8 +8,8 @@ from apollo.utils import dynamic_obstacle_location_to_obstacle
 from config import HD_MAP
 from framework.scenario.ad_agents import ADAgent
 from hdmap.MapParser import MapParser
-from modules.common.proto.geometry_pb2 import PointENU
-from modules.perception.proto.perception_obstacle_pb2 import PerceptionObstacle
+from modules.common_msgs.basic_msgs.geometry_pb2 import PointENU
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import PerceptionObstacle
 
 
 class DynamicObstacleManager:

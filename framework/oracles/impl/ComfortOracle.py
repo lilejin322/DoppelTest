@@ -8,7 +8,7 @@ import numpy as np
 
 from apollo.utils import calculate_velocity
 from framework.oracles.OracleInterface import OracleInterface
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
 
 
 class ComfortOracle(OracleInterface):

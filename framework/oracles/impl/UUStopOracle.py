@@ -5,9 +5,9 @@ from typing import List, Optional, Tuple
 
 from apollo.utils import calculate_velocity
 from framework.oracles.OracleInterface import OracleInterface
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
-from modules.planning.proto.decision_pb2 import STOP_REASON_STOP_SIGN
-from modules.planning.proto.planning_pb2 import ADCTrajectory
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.planning_msgs.decision_pb2 import STOP_REASON_STOP_SIGN
+from modules.common_msgs.planning_msgs.planning_pb2 import ADCTrajectory
 
 
 class UUStopOracle(OracleInterface):

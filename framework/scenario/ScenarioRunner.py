@@ -16,7 +16,7 @@ from framework.scenario import Scenario
 from framework.scenario.ad_agents import ADAgent
 from framework.scenario.PedestrianManager import PedestrianManager
 from framework.scenario.TrafficControlManager import TrafficControlManager
-from modules.map.proto.map_pb2 import Map
+from modules.common_msgs.map_msgs.map_pb2 import Map
 from utils import (get_logger, get_scenario_logger, random_numeric_id,
                    save_record_files_and_chromosome)
 

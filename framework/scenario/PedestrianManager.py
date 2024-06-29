@@ -10,7 +10,7 @@ from apollo.utils import pedestrian_location_to_obstacle
 from config import HD_MAP
 from framework.scenario.pd_agents import PDAgent, PDSection
 from hdmap.MapParser import MapParser
-from modules.common.proto.geometry_pb2 import Point3D
+from modules.common_msgs.basic_msgs.geometry_pb2 import Point3D
 
 
 class PedestrianManager:

@@ -13,8 +13,8 @@ from framework.baseline.DynamicObstacleManager import DynamicObstacleManager
 from framework.scenario import Scenario
 from framework.scenario.ad_agents import ADAgent
 from framework.scenario.PedestrianManager import PedestrianManager
-from modules.common.proto.header_pb2 import Header
-from modules.perception.proto.perception_obstacle_pb2 import \
+from modules.common_msgs.basic_msgs.header_pb2 import Header
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import \
     PerceptionObstacles
 from utils import (get_scenario_logger, random_numeric_id,
                    save_record_files_and_chromosome)

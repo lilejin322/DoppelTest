@@ -16,10 +16,10 @@ import the appropriate modules needed for this tutorial
 
     from time import sleep, time
 
-    from modules.common.proto.header_pb2 import Header
-    from modules.common.proto.geometry_pb2 import PointENU
-    from modules.localization.proto.localization_pb2 import LocalizationEstimate
-    from modules.routing.proto.routing_pb2 import RoutingRequest, LaneWaypoint
+    from modules.common_msgs.basic_msgs.header_pb2 import Header
+    from modules.common_msgs.basic_msgs.geometry_pb2 import PointENU
+    from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+    from modules.common_msgs.routing_msgs.routing_pb2 import RoutingRequest, LaneWaypoint
 
     from apollo.ApolloContainer import ApolloContainer
     from apollo.CyberBridge import CyberBridge, Topics
@@ -207,10 +207,10 @@ Recap: The complete code example
 
     from time import sleep, time
 
-    from modules.common.proto.header_pb2 import Header
-    from modules.common.proto.geometry_pb2 import PointENU
-    from modules.localization.proto.localization_pb2 import LocalizationEstimate
-    from modules.routing.proto.routing_pb2 import RoutingRequest, LaneWaypoint
+    from modules.common_msgs.basic_msgs.header_pb2 import Header
+    from modules.common_msgs.basic_msgs.geometry_pb2 import PointENU
+    from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+    from modules.common_msgs.routing_msgs.routing_pb2 import RoutingRequest, LaneWaypoint
 
     from apollo.ApolloContainer import ApolloContainer
     from apollo.CyberBridge import CyberBridge, Topics

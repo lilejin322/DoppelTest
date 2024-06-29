@@ -7,8 +7,8 @@ from shapely.geometry import Polygon
 
 from apollo.utils import calculate_velocity, generate_adc_polygon
 from framework.oracles.OracleInterface import OracleInterface
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
-from modules.perception.proto.perception_obstacle_pb2 import \
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import \
     PerceptionObstacles
 
 

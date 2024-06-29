@@ -4,7 +4,7 @@ sys.path.append(APOLLO_ROOT)
 from typing import List, Optional, Tuple
 
 from framework.oracles.OracleInterface import OracleInterface
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
 
 
 class ModuleOracle(OracleInterface):

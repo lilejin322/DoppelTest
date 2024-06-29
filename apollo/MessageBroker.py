@@ -11,8 +11,8 @@ from apollo.CyberBridge import Channel, Topics
 from apollo.utils import localization_to_obstacle, obstacle_to_polygon
 from config import PERCEPTION_FREQUENCY
 from framework.scenario.PedestrianManager import PedestrianManager
-from modules.common.proto.header_pb2 import Header
-from modules.perception.proto.perception_obstacle_pb2 import \
+from modules.common_msgs.basic_msgs.header_pb2 import Header
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import \
     PerceptionObstacles
 from utils import get_logger
 
