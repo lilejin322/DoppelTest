@@ -15,11 +15,11 @@ from config import (APOLLO_ROOT, APOLLO_VEHICLE_HEIGHT, APOLLO_VEHICLE_LENGTH,
                     APOLLO_VEHICLE_WIDTH, HD_MAP,
                     APOLLO_VEHICLE_back_edge_to_center)
 from hdmap.MapParser import MapParser
-from modules.common.proto.geometry_pb2 import Point3D
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
-from modules.map.proto.map_lane_pb2 import Lane, LaneBoundary
-from modules.perception.proto.perception_obstacle_pb2 import PerceptionObstacle
-from modules.planning.proto.planning_pb2 import ADCTrajectory
+from modules.common_msgs.basic_msgs.geometry_pb2 import Point3D
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.map_msgs.map_lane_pb2 import Lane, LaneBoundary
+from modules.common_msgs.perception_msgs.perception_obstacle_pb2 import PerceptionObstacle
+from modules.common_msgs.planning_msgs.planning_pb2 import ADCTrajectory
 
 
 @dataclass
