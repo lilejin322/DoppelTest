@@ -1,7 +1,7 @@
 import sys
 from config import APOLLO_ROOT
 sys.path.append(APOLLO_ROOT)
-from modules.map.proto.map_pb2 import Map
+from modules.common_msgs_map_msgs.map_pb2 import Map
 
 
 def load_hd_map(filename: str):
