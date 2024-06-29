@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from threading import Thread
 from typing import DefaultDict, List, Set
 
-from modules.canbus.proto.chassis_pb2 import Chassis
+from modules.common_msgs.chassis_msgs.chassis_pb2 import Chassis
 from modules.localization.proto.localization_pb2 import LocalizationEstimate
 from modules.perception.proto.perception_obstacle_pb2 import \
     PerceptionObstacles
