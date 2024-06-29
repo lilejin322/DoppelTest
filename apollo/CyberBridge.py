@@ -8,7 +8,7 @@ from threading import Thread
 from typing import DefaultDict, List, Set
 
 from modules.common_msgs.chassis_msgs.chassis_pb2 import Chassis
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
 from modules.perception.proto.perception_obstacle_pb2 import \
     PerceptionObstacles
 from modules.perception.proto.traffic_light_detection_pb2 import \
