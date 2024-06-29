@@ -10,13 +10,13 @@ from apollo.CyberBridge import Topics
 from apollo.utils import PositionEstimate, extract_main_decision
 from config import HD_MAP, USE_SIM_CONTROL_STANDALONE
 from hdmap.MapParser import MapParser
-from modules.common.proto.geometry_pb2 import Point3D
-from modules.common.proto.header_pb2 import Header
-from modules.localization.proto.localization_pb2 import LocalizationEstimate
-from modules.localization.proto.pose_pb2 import Pose
-from modules.map.proto.map_pb2 import Map
-from modules.planning.proto.planning_pb2 import ADCTrajectory
-from modules.routing.proto.routing_pb2 import LaneWaypoint, RoutingRequest
+from modules.common_msgs.basic_msgs.geometry_pb2 import Point3D
+from modules.common_msgs.basic_msgs.header_pb2 import Header
+from modules.common_msgs.localization_msgs.localization_pb2 import LocalizationEstimate
+from modules.common_msgs.localization_msgs.pose_pb2 import Pose
+from modules.common_msgs.map_msgs.map_pb2 import Map
+from modules.common_msgs.planning_msgs.planning_pb2 import ADCTrajectory
+from modules.common_msgs.routing_msgs.routing_pb2 import LaneWaypoint, RoutingRequest
 from utils import get_logger
 
 
