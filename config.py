@@ -16,7 +16,7 @@ APOLLO_VEHICLE_back_edge_to_center = 1.043
 
 # DIRECTORIES =======================================
 APOLLO_ROOT = '/home/lilejin/test/BaiduApollo'
-"""Root directory of Apollo 7.0"""
+"""Root directory of Apollo 8.0"""
 DT_ROOT = Path(__file__).parent
 """Root directory of DoppelTest"""
 RECORDS_DIR = f'{DT_ROOT}/data/records'

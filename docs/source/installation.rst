@@ -37,7 +37,7 @@ Hardware and Software Requirements
 Installing Baidu Apollo
 -----------------------
 
-1. Download the DoppelTest version of Baidu Apollo 7.0 
+1. Download the DoppelTest version of Baidu Apollo 8.0 
    from https://doi.org/10.5281/zenodo.7622089
 
     .. note:: In this forked version, we made slight adjustments that 
