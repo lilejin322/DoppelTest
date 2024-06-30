@@ -48,7 +48,7 @@ In this section we will be discussing steps to replicate the results discussed i
 
 ### INSTALLING Baidu Apollo
 
-1. Download the DoppelTest version of Apollo 7.0 from https://doi.org/10.5281/zenodo.7622089
+1. Download the DoppelTest version of Apollo 8.0 from https://doi.org/10.5281/zenodo.7622089
 
 > In this forked version, we made slight adjustments that are not related to the AD stack
 
