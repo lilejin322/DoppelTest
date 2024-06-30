@@ -41,4 +41,4 @@ s_name = f'Scenario_{x.cid:05}'
 srunner = ScenarioRunner.get_instance()
 srunner.set_scenario(x)
 srunner.init_scenario()
-srunner.run_scenario(g_name, s_name, False)
+srunner.run_scenario(g_name, s_name, True)
