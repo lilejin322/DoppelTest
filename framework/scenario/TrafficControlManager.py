@@ -1,6 +1,3 @@
-import sys
-from config import APOLLO_ROOT
-sys.path.append(APOLLO_ROOT)
 from time import time
 
 from config import FORCE_INVALID_TRAFFIC_CONTROL
